@@ -1,7 +1,7 @@
 defmodule HomebridgeWebhook.MixProject do
   use Mix.Project
 
-  @version "0.1.2"
+  @version "0.1.3"
 
   def project do
     [
@@ -24,10 +24,10 @@ defmodule HomebridgeWebhook.MixProject do
   defp deps do
     [
       # Dev and test
-      {:credo, "~> 1.3.0", only: [:dev, :test], runtime: false},
-      {:dialyxir, "~> 1.0.0-rc.4", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+      {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false},
       # Everything else
-      {:hackney, "~> 1.16.0"},
+      {:hackney, "~> 1.17.0"},
       {:jason, "~> 1.0"},
       {:tesla, "~> 1.4.0"}
     ]
