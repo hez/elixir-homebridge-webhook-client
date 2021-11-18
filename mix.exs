@@ -27,7 +27,7 @@ defmodule HomebridgeWebhook.MixProject do
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false},
       # Everything else
-      {:hackney, "~> 1.17.0"},
+      {:hackney, "~> 1.18.0"},
       {:jason, "~> 1.0"},
       {:tesla, "~> 1.4.0"}
     ]
