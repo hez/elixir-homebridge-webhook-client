@@ -13,7 +13,7 @@ The package can be installed by adding `homebridge_webhook` to your list of depe
 ```elixir
 def deps do
   [
-    {:homebridge_webhook, github: "hez/homebridge_webhook", tag: "v0.1.0"}
+    {:homebridge_webhook, github: "hez/elixir-homebridge-webhook-client", tag: "v0.1.4"}
   ]
 end
 ```
@@ -24,7 +24,7 @@ Add Homebridge server host configuration to your config/* file.
 
 ```
 config :homebridge_webhook,
-  base_url: "http://homebridge.:51828",
+  base_url: "http://homebridge.local:51828",
   username: "admin",
   password: "admin"
 ```
