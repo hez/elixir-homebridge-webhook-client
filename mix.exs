@@ -7,7 +7,7 @@ defmodule HomebridgeWebhook.MixProject do
     [
       app: :homebridge_webhook,
       version: @version,
-      elixir: "~> 1.10",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
